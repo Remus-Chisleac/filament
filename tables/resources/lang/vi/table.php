@@ -5,22 +5,22 @@ return [
     'fields' => [
 
         'search_query' => [
-            'label' => 'Suche',
-            'placeholder' => 'Suche',
+            'label' => 'Tìm kiếm',
+            'placeholder' => 'Tìm kiếm',
         ],
 
     ],
 
     'pagination' => [
 
-        'label' => 'Seitennavigation',
+        'label' => 'Pagination Navigation',
 
-        'overview' => ':first bis :last von :total Ergebnissen',
+        'overview' => 'Hiển thị từ :first đến :last trong số :total kết quả',
 
         'fields' => [
 
             'records_per_page' => [
-                'label' => 'pro Seite',
+                'label' => 'mỗi trang',
             ],
 
         ],
@@ -28,15 +28,15 @@ return [
         'buttons' => [
 
             'go_to_page' => [
-                'label' => 'Weiter zur Seite :page',
+                'label' => 'Đi tới trang :page',
             ],
 
             'next' => [
-                'label' => 'Nächste',
+                'label' => 'Tiếp',
             ],
 
             'previous' => [
-                'label' => 'Vorherige',
+                'label' => 'Trước',
             ],
 
         ],
@@ -46,11 +46,11 @@ return [
     'buttons' => [
 
         'filter' => [
-            'label' => 'Filtern',
+            'label' => 'Lọc',
         ],
 
         'open_actions' => [
-            'label' => 'Aktionen öffnen',
+            'label' => 'Xem hành động',
         ],
 
     ],
@@ -59,20 +59,20 @@ return [
 
         'modal' => [
 
-            'requires_confirmation_subheading' => 'Sind Sie sicher, dass Sie dies tun möchten?',
+            'requires_confirmation_subheading' => 'Bạn có chắc muốn thực hiện hành động này?',
 
             'buttons' => [
 
                 'cancel' => [
-                    'label' => 'Abbrechen',
+                    'label' => 'Hủy',
                 ],
 
                 'confirm' => [
-                    'label' => 'Bestätigen',
+                    'label' => 'Xác nhận',
                 ],
 
                 'submit' => [
-                    'label' => 'Absenden',
+                    'label' => 'Gửi',
                 ],
 
             ],
@@ -82,7 +82,7 @@ return [
         'buttons' => [
 
             'select_all' => [
-                'label' => 'Alle :count Datensätze auswählen',
+                'label' => 'Chọn tất cả :count dòng',
             ],
 
         ],
@@ -90,7 +90,7 @@ return [
     ],
 
     'empty' => [
-        'heading' => 'Keine Datensätze gefunden',
+        'heading' => 'Không có dữ liệu nào',
     ],
 
 ];
